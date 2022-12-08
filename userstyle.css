@@ -1,0 +1,87 @@
+@-moz-document domain("overleaf.com") {
+#chat-wrapper > div > div > div > editor-navigation-toolbar-root > header > div > div > button,
+div.toolbar-left > div:nth-child(2) > a,
+.history-toolbar-entries-list {
+    border: none
+}
+#chat-wrapper > div > div > div > editor-navigation-toolbar-root > header,
+.custom-toggler,
+.editor-sidebar,
+.outline-container,
+.chat .chat-error,
+.chat .messages,
+.logs-pane,
+.history-file-tree-inner,
+.navbar-default,
+.project-list-sidebar {
+    background-color: #500
+}
+.chat .new-message {
+    background-color: #500;
+    border: none
+}
+.outline-body {
+    background-color: #500;
+    background: url(https://i.imgur.com/Vaba7rN.png);
+    background-size: cover;
+    height: 100%
+}
+.outline-item-expand-collapse-btn {
+    background-color: transparent
+}
+.toolbar {
+    border-bottom: 1px solid #500
+}
+.toolbar .btn-full-height:hover,
+.vertical-resizable-resizer:hover,
+.outline-header:hover,
+.outline-header-expand-collapse-btn:hover,
+.outline-item-link:focus,
+.outline-item-link:hover,
+.file-tree:not(.multi-selected) ul.file-tree-list li.selected > .entity > .entity-name,
+.file-tree:not(.multi-selected) ul.file-tree-list li.selected > .entity > .entity-name:before,
+.file-tree ul.file-tree-list li .entity-name:hover,
+.file-tree ul.file-tree-list li .entity-name:hover:before,
+.outline-item-link-highlight,
+.history-file-entity-link:hover,
+.history-file-entity-link:hover:before,
+.history-file-entity-link-selected,
+.history-file-entity-link-selected:before,
+.history-entry-selected .history-entry-details,
+.history-version-with-label-selected,
+ul.folders-menu > li > a:hover {
+    background-color: #800
+}
+.toolbar-editor,
+.ui-layout-resizer,
+div.toolbar.toolbar-pdf.toolbar-pdf-hybrid.btn-toolbar,
+.vertical-resizable-resizer,
+.history-compare-mode-toolbar,
+.history-toolbar,
+ul.folders-menu > li.active > a {
+    background-color: #470400
+}
+div.file-tree.ng-scope.vertical-resizable-top.vertical-resizable-top-center > file-tree-root > div.toolbar.toolbar-filetree,
+.outline-header {
+    background-color: #470400;
+    border: none
+}
+div.formatting-buttons.ng-scope.ng-isolate-scope > div > button {
+    border: none;
+    background-color: #470400
+}
+div.project-name.toolbar-center > span,
+.file-tree ul.file-tree-list li i.fa-folder,
+.file-tree ul.file-tree-list li i.fa-folder-open,
+.file-tree ul.file-tree-list li i.fa,
+.history-file-entity-icon,
+.history-file-operation-icon {
+    color: #fff
+}
+ul.file-tree-list {
+    background: url(https://i.imgur.com/l3Hym1P.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom
+}
+}

@@ -1,0 +1,201 @@
+@-moz-document domain("overleaf.com") {
+editor-navigation-toolbar-root > header > div.toolbar-left > div:nth-child(1) > button > i {
+    background: url("https://deklubben.dk/static/de_logo.svg") 0%/contain no-repeat;
+}
+
+.toolbar {
+    border-bottom: 1px solid #550000;
+}
+
+#chat-wrapper > div > div > div > editor-navigation-toolbar-root > header {
+    background-color: #550000;
+}
+
+#chat-wrapper > div > div > div > editor-navigation-toolbar-root > header > div > div > button {
+    border: none;
+}
+
+div.toolbar-left > div:nth-child(2) > a {
+    border: none;
+}
+
+div.project-name.toolbar-center > span {
+    color: white;
+}
+
+div.file-tree.ng-scope.vertical-resizable-top.vertical-resizable-top-center > file-tree-root > div.toolbar.toolbar-filetree {
+    background-color: #470400;
+    border: none;
+}
+
+.toolbar-editor {
+    background-color: #470400;
+}
+
+
+div.formatting-buttons.ng-scope.ng-isolate-scope > div > button {
+    border: none;
+    background-color: #470400;
+}
+
+.ui-layout-resizer {
+    background-color: #470400;
+}
+
+.custom-toggler {
+    background-color: #550000;
+}
+
+div.toolbar.toolbar-pdf.toolbar-pdf-hybrid.btn-toolbar {
+    background-color: #470400;
+}
+
+.toolbar .btn-full-height:hover {
+    background-color: #880000;
+}
+
+.editor-sidebar {
+    background-color: #550000;
+}
+
+.outline-container {
+    background-color: #550000;
+}
+
+.vertical-resizable-resizer {
+    background-color: #470400;
+}
+
+.vertical-resizable-resizer:hover {
+    background-color: #880000;
+}
+
+.outline-header {
+    background-color: #470400;
+    border: none;
+}
+
+.outline-header:hover {
+    background-color: #880000;
+}
+
+.outline-header-expand-collapse-btn:hover {
+    background-color: #880000;
+}
+
+.outline-body {
+    background-color: #550000;
+    background: url("https://i.imgur.com/Vaba7rN.png");
+    background-size: cover;
+    height: 100%;
+}
+
+.outline-item-expand-collapse-btn {
+    background-color: transparent;
+}
+
+.outline-item-link:focus,
+.outline-item-link:hover {
+    background-color: #880000;
+}
+
+ul.file-tree-list {
+    background: url("https://i.imgur.com/l3Hym1P.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom
+}
+
+.file-tree:not(.multi-selected) ul.file-tree-list li.selected > .entity > .entity-name {
+    background-color: #880000;
+}
+
+.file-tree:not(.multi-selected) ul.file-tree-list li.selected > .entity > .entity-name:before {
+    background-color: #880000;
+}
+
+.file-tree ul.file-tree-list li .entity-name:hover {
+    background-color: #880000;
+}
+
+.file-tree ul.file-tree-list li .entity-name:hover:before {
+    background-color: #880000;
+}
+
+.file-tree ul.file-tree-list li i.fa-folder, .file-tree ul.file-tree-list li i.fa-folder-open {
+    color: white;
+}
+.file-tree ul.file-tree-list li i.fa {
+    color: white;
+}
+
+.outline-item-link-highlight {
+    background-color: #880000;
+}
+
+.chat .chat-error,
+.chat .messages {
+    background-color: #550000;
+}
+
+.chat .new-message {
+    background-color: #550000;
+    border: none
+}
+
+.logs-pane {
+    background-color: #550000
+}
+        
+.history-compare-mode-toolbar, .history-toolbar {
+    background-color: #470400;
+}
+
+.history-toolbar-entries-list {
+    border: none;
+}
+
+.history-file-tree-inner {
+    background-color: #550000;
+}
+
+.history-file-entity-icon, .history-file-operation-icon {
+    color: white;
+}
+
+.history-file-entity-link:hover {
+    background-color: #880000;
+}
+
+.history-file-entity-link:hover:before {
+    background-color: #880000;
+}
+
+.history-file-entity-link-selected {
+    background-color: #880000;
+}
+
+.history-file-entity-link-selected:before {
+    background-color: #880000;
+}
+
+.history-entry-selected .history-entry-details, .history-version-with-label-selected {
+    background-color: #880000;
+}
+
+.navbar-default {
+    background-color: #550000;
+}
+
+.project-list-sidebar {
+    background-color: #550000;
+}
+
+ul.folders-menu>li.active>a {
+    background-color: #470400;
+}
+
+ul.folders-menu>li>a:hover {
+    background-color: #880000;
+}
+}
