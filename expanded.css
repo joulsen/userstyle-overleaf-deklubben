@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           DE Klubben Overleaf
+@namespace      github.com/supercigar
+@version        1.0.0
+@description    Make the Overleaf act like it was Thursday afternoon on Frederik Bajers Vej
+@author         github.com/supercigar
+==/UserStyle== */
 @-moz-document domain("overleaf.com") {
 editor-navigation-toolbar-root > header > div.toolbar-left > div:nth-child(1) > button > i {
     background: url("https://deklubben.dk/static/de_logo.svg") 0%/contain no-repeat;
